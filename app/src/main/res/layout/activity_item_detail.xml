@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/img_item_photo"
+            style="@style/ImageDetail" />
+
+        <TextView
+            android:id="@+id/tv_item_name"
+            style="@style/TextDetail.Title"
+            tools:text="@string/headphone_name_dummy" />
+
+        <TextView
+            android:id="@+id/tv_item_type"
+            style="@style/TextDetail.Subtitle"
+            tools:text="@string/headphone_type_dummy" />
+
+        <TextView
+            android:id="@+id/tv_item_price"
+            style="@style/TextDetail.Price"
+            tools:text="@string/headphone_dummy_price" />
+
+        <TextView
+            android:id="@+id/tv_item_detail"
+            style="@style/TextDetail.Detail"
+            tools:text="@string/headphone_detail_dummy" />
+
+        <Button
+            android:id="@+id/btn_contact_seller"
+            style="@style/ButtonNoMargin"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="16dp"
+            tools:text="@string/contact" />
+    </LinearLayout>
+</ScrollView>
